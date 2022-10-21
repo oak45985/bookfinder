@@ -22,3 +22,14 @@ export const ADD_USER = gql `
         }
     }
 `
+
+// export const REMOVE_BOOK = gql `
+//     mutation removeBook($bookId: String!) {
+//         removeBook(bookId: $bookId) {
+
+//         }
+//     }
+// `
+// export const SAVE_BOOK = gql `
+//     mutation saveBook()
+// `

@@ -17,3 +17,15 @@ export const QUERY_ME = gql`
         }
     }
 `
+export const QUERY_BOOKS = gql `
+    query books($bookId: String) {
+        books(bookId: $bookId) {
+            bookId
+            authors
+            description
+            title
+            image
+            link
+        }
+    }
+`
